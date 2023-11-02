@@ -1,0 +1,12 @@
+{
+  "name": "backend-development",
+  "version": "1.0.0",
+  "description": "A backend developemnt on -youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["javascript", "node js", "react js"],
+  "author": "sudhir",
+  "license": "ISC"
+}
