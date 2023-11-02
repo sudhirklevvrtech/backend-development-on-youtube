@@ -3,10 +3,22 @@
   "version": "1.0.0",
   "description": "A backend developemnt on -youtube",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
-  "keywords": ["javascript", "node js", "react js"],
+  "keywords": [
+    "javascript",
+    "node js",
+    "react js"
+  ],
   "author": "sudhir",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
 }
